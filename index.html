@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fyllin Privacy Policy</title>
+    <style>
+        :root {
+            --bg-primary: #0f0f23;
+            --bg-secondary: #1a1a2e;
+            --text-primary: #e4e4e7;
+            --text-secondary: #a1a1aa;
+            --accent: #818cf8;
+            --accent-hover: #6366f1;
+            --border: #27273a;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.7;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 3rem;
+            padding-bottom: 2rem;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .logo {
+            width: 80px;
+            height: 80px;
+            margin-bottom: 1rem;
+            border-radius: 16px;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, var(--accent), #a78bfa);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 0.5rem;
+        }
+
+        .last-updated {
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+        }
+
+        h2 {
+            font-size: 1.5rem;
+            color: var(--accent);
+            margin: 2.5rem 0 1rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 1px solid var(--border);
+        }
+
+        h3 {
+            font-size: 1.1rem;
+            color: var(--text-primary);
+            margin: 1.5rem 0 0.75rem;
+        }
+
+        p {
+            margin-bottom: 1rem;
+            color: var(--text-secondary);
+        }
+
+        ul {
+            margin: 1rem 0 1rem 1.5rem;
+            color: var(--text-secondary);
+        }
+
+        li {
+            margin-bottom: 0.5rem;
+        }
+
+        strong {
+            color: var(--text-primary);
+        }
+
+        .highlight-box {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border);
+            border-left: 4px solid var(--accent);
+            padding: 1rem 1.25rem;
+            border-radius: 8px;
+            margin: 1.5rem 0;
+        }
+
+        .highlight-box p {
+            margin: 0;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1.5rem 0;
+            background: var(--bg-secondary);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        th,
+        td {
+            padding: 1rem;
+            text-align: left;
+            border-bottom: 1px solid var(--border);
+        }
+
+        th {
+            background: rgba(129, 140, 248, 0.1);
+            color: var(--accent);
+            font-weight: 600;
+        }
+
+        td {
+            color: var(--text-secondary);
+        }
+
+        tr:last-child td {
+            border-bottom: none;
+        }
+
+        a {
+            color: var(--accent);
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        a:hover {
+            color: var(--accent-hover);
+            text-decoration: underline;
+        }
+
+        footer {
+            margin-top: 4rem;
+            padding-top: 2rem;
+            border-top: 1px solid var(--border);
+            text-align: center;
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 2rem 1rem;
+            }
+
+            h1 {
+                font-size: 2rem;
+            }
+
+            h2 {
+                font-size: 1.25rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Fyllin Privacy Policy</h1>
+            <p class="last-updated">Last Updated: December 18, 2025</p>
+        </header>
+
+        <main>
+            <h2>Overview</h2>
+            <p>Fyllin is a Chrome extension designed to help users fill web forms using AI. We are committed to
+                protecting your privacy and being transparent about how the extension works.</p>
+
+            <h2>Data Collection</h2>
+            <div class="highlight-box">
+                <p><strong>Fyllin does NOT collect, store, or transmit any personal data to us.</strong> We do not have
+                    servers that receive your information.</p>
+            </div>
+
+            <h3>What Fyllin Processes Locally</h3>
+            <p>The following data is processed <strong>entirely on your device</strong> and is never sent to us:</p>
+            <ul>
+                <li><strong>Form Field Information:</strong> When you use the autofill feature, Fyllin reads form field
+                    labels and attributes from the current webpage to understand what data is needed.</li>
+                <li><strong>Uploaded Documents:</strong> When you upload documents (PDF, images, text files) for
+                    extraction, all processing (including OCR) happens locally in your browser.</li>
+            </ul>
+
+            <h3>What Fyllin Sends to Third-Party AI Providers</h3>
+            <p>When you use the AI form filling feature, Fyllin sends the following to <strong>your chosen AI
+                    provider</strong> (OpenAI, Google Gemini, Anthropic, or Groq):</p>
+            <ul>
+                <li>Form field labels and types (e.g., "First Name", "Email", "Phone")</li>
+                <li>Document text (if using the "Fill from Document" feature)</li>
+            </ul>
+            <div class="highlight-box">
+                <p><strong>Important:</strong> You must provide your own API key from these providers. Fyllin
+                    communicates directly with the AI provider's API using your key. We never see or have access to your
+                    API key or the data exchanged.</p>
+            </div>
+
+            <h2>Data Storage</h2>
+            <p>Fyllin stores the following data locally in your browser using Chrome's secure storage:</p>
+            <ul>
+                <li><strong>API Key:</strong> Your AI provider API key (stored securely in
+                    <code>chrome.storage.sync</code>)</li>
+                <li><strong>Settings:</strong> Your selected provider, model, and custom instructions</li>
+            </ul>
+            <p>This data:</p>
+            <ul>
+                <li>Is stored only on your device(s)</li>
+                <li>Syncs across your Chrome browsers if you're signed into Chrome</li>
+                <li>Is never accessible to us or any third party</li>
+            </ul>
+
+            <h2>Third-Party Services</h2>
+            <p>Fyllin integrates with the following third-party AI services (based on your choice):</p>
+            <ul>
+                <li><a href="https://openai.com/privacy/" target="_blank" rel="noopener">OpenAI Privacy Policy</a></li>
+                <li><a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy
+                        Policy</a></li>
+                <li><a href="https://www.anthropic.com/privacy" target="_blank" rel="noopener">Anthropic Privacy
+                        Policy</a></li>
+                <li><a href="https://groq.com/privacy-policy/" target="_blank" rel="noopener">Groq Privacy Policy</a>
+                </li>
+            </ul>
+
+            <h2>Permissions</h2>
+            <p>Fyllin requests the following Chrome permissions:</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Permission</th>
+                        <th>Purpose</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><code>activeTab</code></td>
+                        <td>Access the current page to read form fields and fill values</td>
+                    </tr>
+                    <tr>
+                        <td><code>storage</code></td>
+                        <td>Store your settings and API key locally</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h2>No Tracking</h2>
+            <p>Fyllin does <strong>not</strong> include:</p>
+            <ul>
+                <li>Analytics or tracking scripts</li>
+                <li>Advertising</li>
+                <li>User behavior monitoring</li>
+                <li>External resource loading</li>
+            </ul>
+
+            <h2>Children's Privacy</h2>
+            <p>Fyllin is not intended for use by children under 13 years of age.</p>
+
+            <h2>Changes to This Policy</h2>
+            <p>We may update this privacy policy from time to time. Changes will be posted on this page with an updated
+                "Last Updated" date.</p>
+
+            <h2>Contact</h2>
+            <p>For questions about this privacy policy, please open an issue on our <a
+                    href="https://github.com/Prabuganesan/fyllinprivacypolicy" target="_blank" rel="noopener">GitHub
+                    repository</a>.</p>
+        </main>
+
+        <footer>
+            <p>© 2025 Fyllin. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+
+</html>
