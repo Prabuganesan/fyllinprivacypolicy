@@ -1,0 +1,83 @@
+# Fyllin Privacy Policy
+
+**Last Updated: December 18, 2025**
+
+## Overview
+
+Fyllin is a Chrome extension designed to help users fill web forms using AI. We are committed to protecting your privacy and being transparent about how the extension works.
+
+## Data Collection
+
+**Fyllin does NOT collect, store, or transmit any personal data to us.** We do not have servers that receive your information.
+
+### What Fyllin Processes Locally
+
+The following data is processed **entirely on your device** and is never sent to us:
+
+- **Form Field Information**: When you use the autofill feature, Fyllin reads form field labels and attributes from the current webpage to understand what data is needed.
+- **Uploaded Documents**: When you upload documents (PDF, images, text files) for extraction, all processing (including OCR) happens locally in your browser.
+
+### What Fyllin Sends to Third-Party AI Providers
+
+When you use the AI form filling feature, Fyllin sends the following to **your chosen AI provider** (OpenAI, Google Gemini, Anthropic, or Groq):
+
+- Form field labels and types (e.g., "First Name", "Email", "Phone")
+- Document text (if using the "Fill from Document" feature)
+
+**Important**: You must provide your own API key from these providers. Fyllin communicates directly with the AI provider's API using your key. We never see or have access to your API key or the data exchanged.
+
+## Data Storage
+
+Fyllin stores the following data locally in your browser using Chrome's secure storage:
+
+- **API Key**: Your AI provider API key (stored securely in `chrome.storage.sync`)
+- **Settings**: Your selected provider, model, and custom instructions
+
+This data:
+- Is stored only on your device(s)
+- Syncs across your Chrome browsers if you're signed into Chrome
+- Is never accessible to us or any third party
+
+## Third-Party Services
+
+Fyllin integrates with the following third-party AI services (based on your choice):
+
+- [OpenAI](https://openai.com/privacy/)
+- [Google Gemini](https://policies.google.com/privacy)
+- [Anthropic](https://www.anthropic.com/privacy)
+- [Groq](https://groq.com/privacy-policy/)
+
+Please review their respective privacy policies for how they handle data.
+
+## Permissions
+
+Fyllin requests the following Chrome permissions:
+
+| Permission | Purpose |
+|------------|---------|
+| `activeTab` | Access the current page to read form fields and fill values |
+| `storage` | Store your settings and API key locally |
+
+## No Tracking
+
+Fyllin does **not** include:
+- Analytics or tracking scripts
+- Advertising
+- User behavior monitoring
+- External resource loading
+
+## Children's Privacy
+
+Fyllin is not intended for use by children under 13 years of age.
+
+## Changes to This Policy
+
+We may update this privacy policy from time to time. Changes will be posted in this file with an updated "Last Updated" date.
+
+## Contact
+
+For questions about this privacy policy, please open an issue on our [GitHub repository](https://github.com/Prabuganesan/fyllin).
+
+---
+
+© 2025 Fyllin. All rights reserved.
